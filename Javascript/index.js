@@ -1,9 +1,10 @@
-
-</script>function AlertScreen() {
+<script>
+function AlertScreen() {
   alert("Thanks for joining the Sauer Community! You'll get your download link in your inbox soon!");
-
+}
   return false;
-  
+</script>
+
 }<button onclick= "submit()">Send me my free game </button>
 
 <script>
