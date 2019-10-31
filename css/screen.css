@@ -61,7 +61,6 @@ li ul {
 button{
 	width: 100px;
 	text-align:center;
-	text-overflow: center;
 }
 
 @media screen and (min-width: 450px) {
@@ -69,7 +68,6 @@ button{
   button{
 	width: 100px;
 	text-align:center;
-	text-overflow: center;
 }
 body {
     background-image: url("background.jpg");
@@ -92,7 +90,6 @@ body {
   p{
 	text-align:left;
 	color: blue;
-	font-size:1.5 em;
   }
   min-width{
 	  min-width: 450px;
@@ -103,7 +100,6 @@ body {
   button{
 	width: 100px;
 	text-align:center;
-	text-overflow: center;
 }
   h1 {
     font-size: 3em;
@@ -117,7 +113,7 @@ body {
   }
    p{
 	text-align:left;
-	color; purple;
+
 	font-size: 2em;
     line-height: 1em;
   }
