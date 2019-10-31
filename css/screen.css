@@ -97,6 +97,9 @@ body {
 }
 
 @media screen and (min-width: 720px) {
+  body{
+	  background-image: url("background1.jpg");
+  }
   button{
 	width: 100px;
 	text-align:center;
