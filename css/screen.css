@@ -1,13 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 input {
   border: 0;
   box-sizing: border-box;
   width: 100%;
-  line-height: 1em;
+  line-height: 1.5em;
   padding: 0.5em; 
   background-color: #BE81F7;
 }
@@ -21,7 +17,7 @@ input[type="checkbox"] {
 body {
   background-image: url("521367.jpg");
   font-family: 'ZCOOL QingKe HuangYou', cursive;
-  color: white;
+  
 }
 
 section {
@@ -40,14 +36,17 @@ form li {
 p {
   padding-top: 0.5em;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
-  font-size:1.1em;
+  font-size:3em;
+  line-height:1em;
+  text-align: left;
+  color: white;
 }
 
 h1, h2 {  
   text-align: center;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
-  font-size: 1.5em; 
-  line-height: 1.6em;
+  font-size: 5em; 
+  line-height: 1.5em;
 }
 
 ol, ul {
@@ -55,33 +54,74 @@ ol, ul {
 }
 
 li ul {
-  padding-top: 0.5em;   
-  padding-left: 0.8em; 
-  padding-bottom: 0;
+  padding-top: 2.5em;   
+  padding-left: 2.7em; 
+  padding-bottom: 2.4em;
+}
+button{
+	width: 100px;
+	text-align:center;
+	text-overflow: center;
 }
 
-
-@media screen and (min-width: 640px) {
-  html {
-    font-size: 1.5em; 
-    line-height: 1.6em; 
+@media screen and (min-width: 450px) {
+  
+  button{
+	width: 100px;
+	text-align:center;
+	text-overflow: center;
+}
+body {
+    background-image: url("background.jpg");
   }
   h1 {
-    font-size: 1.5em; 
-    line-height: 1.6em; 
+    font-size: 1.7em; 
+    line-height: 2em; 
+	text-align:center;
+	color: white;
+  }
+  h2 {
+    font-size: 2.5em;
+    line-height: 3em;
+    text-align: center;
+	color: white;
   }
   form {
     display: grid;
   }
+  p{
+	text-align:left;
+	color: blue;
+	font-size:1.5 em;
+  }
+  min-width{
+	  min-width: 450px;
+  }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 720px) {
+  button{
+	width: 100px;
+	text-align:center;
+	text-overflow: center;
+}
   h1 {
-    font-size: 1.5em;
-    line-height: 1.6em;
+    font-size: 3em;
+    line-height: 3.5em;
+	text-align:center;
   }
   h2 {
-    font-size: 1.2em;
-    line-height: 1.3em;   
+    font-size: 2.5em;
+    line-height: 3em; 
+    text-align: center;	
+  }
+   p{
+	text-align:left;
+	color; purple;
+	font-size: 2em;
+    line-height: 1em;
+  }
+  min-width{
+	  min-width: 720px;
   }
 }
