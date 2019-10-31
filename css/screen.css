@@ -15,7 +15,7 @@ input[type="checkbox"] {
 }
 
 body {
-  background-image: url("521367.jpg");
+  background-image: url("background1.jpg");
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   
 }
@@ -39,7 +39,7 @@ p {
   font-size:3em;
   line-height:1em;
   text-align: left;
-  color: white;
+  color: black;
 }
 
 h1, h2 {  
@@ -70,7 +70,7 @@ button{
 	text-align:center;
 }
 body {
-    background-image: url("background.jpg");
+    background-image: url("background1.jpg");
   }
   h1 {
     font-size: 1.7em; 
@@ -113,7 +113,7 @@ body {
   }
    p{
 	text-align:left;
-
+	color:red;
 	font-size: 2em;
     line-height: 1em;
   }
